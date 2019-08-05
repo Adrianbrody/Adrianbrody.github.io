@@ -11,3 +11,5 @@
 <a href="https://adrianbrody.github.io/dya11%E7%BB%83%E4%B9%A0/html/%E5%AE%89%E5%8D%93%E5%B0%8F%E4%BA%BA.html">安卓机器人</a>
 <br>
 <a href="https://adrianbrody.github.io/dya11%E7%BB%83%E4%B9%A0/html/%E8%AF%AD%E4%B9%89%E5%8C%96%E6%A0%87%E7%AD%BE.html">语义化标签</a>
+<br>
+<a href="https://adrianbrody.github.io/day14%E4%BD%9C%E4%B8%9A/html/%E5%BC%80%E6%BA%90%E5%8D%9A%E5%AE%A2%E9%A1%B5%E9%9D%A2.html">开源博客页面</a>
