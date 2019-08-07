@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            transform-style: preserve-3d;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            margin: 100px auto;
+            border-radius: 50%;
+            /* background: #ccc; */
+            border: 1px solid rgba(245, 122, 8, 0.925);
+            transition: transform 10s;
+            perspective: 500px;
+        }
+
+        body .box:hover {
+            transform: rotateY(360deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+</body>
+
+</html>

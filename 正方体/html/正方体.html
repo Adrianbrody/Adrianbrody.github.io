@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        ul {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            top: 0;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            margin: auto;
+            transform-style: preserve-3d;
+            transform: rotateX(-20deg) rotateY(-20deg);
+            /* animation-name: left; */
+            /* animation-duration: 3s; */
+            animation: left 3s infinite linear;
+            /* border: 2px solid #ccc; */
+        }
+
+        ul li {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 50px;
+            color: #000;
+            background: #fff;
+            border: 2px solid rgb(250, 114, 114);
+
+
+        }
+
+        ul li p {
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            line-height: 300px;
+            border-radius: 50%;
+            background: #fff;
+            /* background: #000; */
+        }
+
+        ul li:nth-child(1) {
+
+            transform: translateZ(150px);
+            opacity: 0.8;
+        }
+
+        ul li:nth-child(2) {
+            transform: translateZ(-150px);
+            opacity: 0.8;
+
+        }
+
+        ul li:nth-child(3) {
+
+            transform: translatex(150px) rotateY(90deg);
+            opacity: 0.8;
+
+        }
+
+        ul li:nth-child(4) {
+
+            transform: translatex(-150px) rotateY(90deg);
+            opacity: 0.8;
+
+        }
+
+        ul li:nth-child(5) {
+
+            transform: translateY(150px) rotateX(90deg);
+            opacity: 0.8;
+
+        }
+
+        ul li:nth-child(6) {
+
+            transform: translateY(-150px) rotateX(90deg);
+            opacity: 0.8;
+
+        }
+
+        @keyframes left {
+            0% {
+                transform: rotateX(0deg) rotateY(0deg);
+            }
+
+            25% {
+                transform: rotateX(80deg) rotateY(80deg);
+            }
+
+            50% {
+                transform: rotateX(160deg) rotateY(160deg);
+            }
+
+            75% {
+                transform: rotateX(240deg) rotateY(240deg);
+            }
+
+            100% {
+                transform: rotateX(360deg) rotateY(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <p style="  background: rgb(79, 79, 243);">1</p>
+        </li>
+        <li>
+            <p style="  background: rgb(243, 35, 35);">2</p>
+        </li>
+        <li>
+            <p style="  background: rgb(213, 21, 238);">3</p>
+        </li>
+        <li>
+            <p style=" background: rgb(128, 240, 53);">4</p>
+        </li>
+        <li>
+            <p style="   background: rgb(247, 243, 34);">5</p>
+        </li>
+        <li>
+            <p style="background: rgb(79, 191, 243);">6</p>
+        </li>
+    </ul>
+</body>
+
+</html>
